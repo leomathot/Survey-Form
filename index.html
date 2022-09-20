@@ -1,0 +1,79 @@
+<!CODETYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form for freeCodeCamp Responsive Web Design course</title>
+  </head>
+  <body>
+    <!-- START HEADER -->
+    <h1 id="title">
+      <span class="app-name-spk">SPK</span><span class="app-name-english">English</span> survey form
+    </h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <!-- END HEADER -->
+    <!-- START FORM -->
+    <form id="survey-form">
+      <!-- START NAME SECTION -->
+      <label id="name-label" class="question">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" required />
+      <!-- END NAME SECTION -->
+      <!-- START EMAIL SECTION -->
+      <label id="email-label" class="question">e-mail</label>
+        <input id="email" type="email" placeholder="Enter your email address" required />
+      <!-- END EMAIL SECTION -->
+      <!-- START AGE SECTION -->
+      <label id="number-label" class="question">Age</label>
+        <input id="number" type="number" min="13" max="120" placeholder="You must be 13+ to fill out this form" required />
+      <!-- AGE AGE SECTION -->
+      <!-- START PURPOSE SECTION -->
+      <label id="purpose" class="question">What purpose do you use SPK-English for?  </label>
+        <select id="dropdown">
+          <option value=" ">Select an option</option>
+          <option value="1">Travel</option>
+          <option value="2">Education</option>
+          <option value="3">Work</option>
+          <option value="4">Fun</option>
+          <option value="5">Other</option>
+        </select>
+      <!-- END PURPOSE SECTION -->
+      <!-- START WOULD YOU RECOMMEND SECTION -->
+      <label id="recomednd-label" class="question need-more-space">
+        Would you recommend SPK-English to others
+      </label>
+        <label id="yes"  class="option">
+          <input type="radio" name="recommend" value="yes"> Yes
+        </label>
+        <label id="no" class="option">
+          <input type="radio" name="recommend" value="no"> No
+        </label>
+      <!-- END WOULD YOU RECOMMEND SECTION -->
+      <!-- START SKILLS YOU IMPROVE SECTION -->
+      <label id="skills-label" class="question need-more-space">
+        What skills do you think SPK-English helps you improve?
+      </label>
+        <label id="reading-label" class="option">
+          <input type="checkbox" value="reading"> Reading
+        </label>
+        <label id="listening-label" class="option">
+          <input type="checkbox" value="listening"> Listening
+        </label>
+        <label id="speaking-label" class="option">
+          <input type="checkbox" value="speaking"> Speaking
+        </label>
+        <label id="writing-label" class="option">
+          <input type="checkbox" value="writing"> Writing
+        </label>
+      <!-- END SKILLS YOU IMPROVE SECTION -->
+      <!-- START GIVE US YOUR OPINION SECTION -->
+      <label id="opinion-label" class="question">
+        Please tell us what we could change to make SPK-English better
+      </label>
+        <textarea id="opinion" rows="5" placeholder="Give us your opinion"></textarea>
+      <!-- END GIVE US YOUR OPINION SECTION -->
+      <!-- START SUBMIT BUTTON -->
+      <input id="submit" type="submit" value="Submit">
+      <!-- END SUBMIT BUTTON -->
+      <!-- END FORM -->
+    </form>
+  </body>
+</html>
