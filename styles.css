@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #1A022E;
+  padding: 20px;
+}
+
+/* text "SPK English survey form" */
+h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* "SPK" part of the app name */
+.app-name-spk {
+  font-size: 35px;
+  color:#0B0553;
+  font-weight: 900;
+  text-shadow: -2px -2px 6px #E053DC, 2px 2px 6px #E053DC;
+  border: 2px solid black;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin-right: -10px;
+  background-color: #5E3483;
+  border-radius: 16px;
+}
+
+.app-name-spk:hover {
+  text-shadow: -2px -2px 6px #E053DC, 2px 2px 5px #E053DC, -3px 0px 10px #F620B8, 3px 0px 10px #F620B8;
+  border: 2px solid #F620B8;
+  box-shadow: 0px 2px 10px red;
+  background: linear-gradient(
+    #5E3483,
+    #5E3483 80%,
+    red 100%
+  );
+}
+
+/* "English" part of the app name */
+.app-name-english {
+  font-size: 30px;
+  color:#E053DC;
+  font-weight: normal;
+  text-shadow: -1.5px 1px #320976;
+}
+
+.app-name-english:hover {
+  color: #F620B8;
+  text-shadow: 0px 0px 6px red, -1px 0px 3px red;
+}
+
+h1, p {
+  text-align: center;
+  min-width: 300px;
+  color: #EEDDFF;
+  margin-bottom: 15px;
+}
+
+/* FORM BOX */
+form {
+  width: 80%;
+  max-width: 650px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: #5E3483;
+  color: white;
+  border: 2px solid Black;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+input[type="text"], input[type="email"], input[type="number"] , label, textarea, select {
+  display: block;
+}
+
+/* These are NAME, E-MAIL, AGE, etc. */
+.question {
+  margin-top: 25;
+  margin-bottom: 5px;
+}
+
+/* extra space is needed between questions with radius and checkboxes options and the options */
+.need-more-space {
+  padding-bottom: 5px;
+}
+
+textarea, select, input[type="text"], input[type="email"], input[type="number"] {
+  width: 100%;
+  background-color: #E9D1FF;
+  border: 5px solid #E9D1FF;
+  border-radius: 6px;
+  font-family: sans-serif;
+  box-shadow: 0px 3px 6px #320976;
+}
+
+/* These are YES, NO, READING, LISTENING, SPEAKING and WRITING */
+.option {
+  color: #CCBBDD;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+  font-family: sans-serif;
+}
+
+/* SUBMIT BUTTON */
+input[type="submit"] {
+  width: 30%;
+  background-color: #9E42EF;
+  border: 2px solid black;
+  box-shadow: 0px 2px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #9E42EF;
+  border: 2px solid #F620B8;
+  box-shadow: 0px 2px 10px red;
+  background: linear-gradient(
+    #9E42EF,
+    #9E42EF 70%,
+    red 100%
+  );
+  text-shadow: 0px 0px 3px red;
+}
