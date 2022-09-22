@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -82,7 +82,7 @@ input[type="text"], input[type="email"], input[type="number"] , label, textarea,
 
 /* These are NAME, E-MAIL, AGE, etc. */
 .question {
-  margin-top: 25;
+  padding-top: 25px;
   margin-bottom: 5px;
 }
 
@@ -135,4 +135,17 @@ input[type="submit"]:hover {
     red 100%
   );
   text-shadow: 0px 0px 3px red;
+}
+
+@media (max-width: 650px) {
+  form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 }
