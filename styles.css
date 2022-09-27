@@ -21,16 +21,6 @@ h1 {
   font-size: 35px;
   color:#0B0553;
   font-weight: 900;
-  text-shadow: -2px -2px 6px #E053DC, 2px 2px 6px #E053DC;
-  border: 2px solid black;
-  padding-left: 10px;
-  padding-right: 15px;
-  margin-right: -10px;
-  background-color: #5E3483;
-  border-radius: 16px;
-}
-
-.app-name-spk:hover {
   text-shadow: -2px -2px 6px #E053DC, 2px 2px 5px #E053DC, -3px 0px 10px #F620B8, 3px 0px 10px #F620B8;
   border: 2px solid #F620B8;
   box-shadow: 0px 2px 10px red;
@@ -39,19 +29,18 @@ h1 {
     #5E3483 80%,
     red 100%
   );
+  border-radius: 16px;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin-right: -6px;
 }
 
 /* "English" part of the app name */
 .app-name-english {
   font-size: 30px;
-  color:#E053DC;
-  font-weight: normal;
-  text-shadow: -1.5px 1px #320976;
-}
-
-.app-name-english:hover {
   color: #F620B8;
-  text-shadow: 0px 0px 6px red, -1px 0px 3px red;
+  font-weight: normal;
+  text-shadow: 1px 0px 3px red, -1px 0px 3px red, 0px 0px 5px red;
 }
 
 h1, p {
